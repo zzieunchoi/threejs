@@ -144,3 +144,33 @@ Web Graphics Library의 약자 -> 웹상에서 2d 및 3d 그래픽을 렌더링�
 
 
 [웹팩](https://github.com/jmyoow/webpack-js-html)에서 clone받기
+
+
+
+## 이미지로 이해하기
+
+![image-20221114215818057](readme.assets/image-20221114215818057.png)
+
+scene에 모든게 다 올라감
+
+오브젝트 하나하나를 메쉬로 구성 (geometry모양 + material재질로 구성)
+
+카메라, 시야각 
+
+조명(재질이 어떤거냐에 따라 필요하거나 필요하지 않음)
+
+씬을 화면에 그려주는 것을 렌더러(renderer)라고 함
+
+
+
+x: 좌우 이동
+
+y: 위아래(위: +/ 아래 : -)
+
+z: 앞뒤(앞 : + / 뒤: -)
+
+
+
+## 소스 코드 구조
+
+main.js에서 모듈을 불러오기!
